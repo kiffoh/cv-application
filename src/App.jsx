@@ -12,7 +12,7 @@ function App() {
 
   const [generalEditMode, setGeneralEditMode] = useState(true);
   const [educationEditMode, setEducationEditMode] = useState(true);
-  const [experienceEditMode, setExperienceEditMode] = useState(false);
+  const [experienceEditMode, setExperienceEditMode] = useState(true);
 
   const [submitted, setSubmitted] = useState(false);
 
