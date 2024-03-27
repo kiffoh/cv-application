@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { EducationInput, InputField, ExperienceInput } from './InputField';
-import './App.css';
+import '../styles/App.css';
 
 function App() {
   const [name, setName] = useState('');
